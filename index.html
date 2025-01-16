@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="fr" xml:lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="sitemap" type="application/xml" href="../sitemap.xml">
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <section id="loader">
+        <div id="loader-container">
+            <span>M</span>
+            <span>L</span>
+            <span>K</span>
+        </div>
+    </section>
+    
+    <div id="main-content" class="hidden">
+
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top navbar-custom">
+          <div class="container-fluid">
+            <a class="navbar-brand"  data-nw-href="#homeScreen" role="button">MALEK</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto">
+                <li class='nav-item'>
+                    <a data-nw-href="#aboutScreen" class="nav-link" role="button">À propos</a>
+                </li>
+                <li class='nav-item'>
+                    <a data-nw-href="#formationsScreen" class="nav-link" role="button">Formations</a>
+                </li>
+                <li class='nav-item'>
+                    <a data-nw-href="#competencesScreen" class="nav-link" role="button">Compétences</a>
+                </li>
+                <li class='nav-item'>
+                    <a data-nw-href="#portfolioScreen" class="nav-link" role="button">Mais projets</a>
+                </li>
+                <li class='nav-item'>
+                    <a data-nw-href="#contacterScreen" class="nav-link" role="button">Me contacter</a>
+                </li>
+                <li class='nav-item'>
+                    <a href="CV de MALEK SI LARBI.pdf" download="CV_MALEK_SI_LARBI.pdf" target="_blank" class="nav-link">CV <i class="fa fa-download"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+    </header>
+
+    	<!-- HOME -->
+	  <section class='screen' >
+        <div class='screen 2backgroundImage 2clipInvertDownRectangle' id='homeScreen'>
+            
+            <div id='homeContent'>
+                <h1 id='home_name'>Silarbi Malek</h1>
+                <p id='home_status'>Étudiant En Informatique</p>
+            </div>
+        </div>
+    </section>
+      <!-- fin HOME -->
+
+
+       <!-- About me -->
+	  <section class='screen' id='aboutScreen'>
+        <div class='spacermenu'></div>
+          <h1 class='sectionTitle h1-spacer-under'>À propos</h1>
+          <div class="screenCenterContent container">
+              <div class='row'>
+                <div class="pic_container col-md-1">
+                    <div class="picContent">
+                        <span class="pic_back pic_element"></span>
+                        <div id="profil_pic" class="pic_element"></div>
+                    </div>
+                </div>
+                
+                <div id="about_p_container" class='col-md'>
+                    <nav class='btn_nav'>
+                        <ul>
+                            <li data-nw-id-target='about_presentation_p' data-nw-classGroup="about_p" class="js_show_btn selected_btn">Présentation</li>
+                            <li data-nw-id-target='about_languages_p' data-nw-classGroup="about_p" class="js_show_btn">Langues</li>
+                            <li data-nw-id-target='about_softskills_p' data-nw-classGroup="about_p" class="js_show_btn">Soft skills</li>
+                            <li data-nw-id-target='about_hobbies_p' data-nw-classGroup="about_p" class="js_show_btn">Passions</li>
+                        </ul>
+                    </nav>
+                    <div class="box_style about_p" id="about_presentation_p">
+                        <p class='p-spacer-under'>Actuellement en deuxième année de Bachelor en Développement Informatique à l'ECE Paris (École Centrale d'Électronique), je me spécialise dans les domaines du développement, de la data et de l'intelligence artificielle. Passionné par l'analyse et l'exploitation des données, je suis motivé par l'idée d'appliquer mes connaissances techniques tout en continuant à apprendre sur le terrain.</p>
+                        <p class='p-spacer-under'>Je recherche une alternance d'un an à partir de septembre 2025, avec un rythme de deux semaines en école et trois semaines en entreprise, afin de renforcer mes compétences dans un environnement innovant. Mon objectif est d'intégrer une équipe dynamique où je pourrai contribuer activement à des projets ambitieux.</p>
+                        <p>Si vous souhaitez en apprendre plus sur moi, ou me contacter, n'hésitez plus, vous pouvez explorer ce site ou télécharger mon CV ! :)</p>
+                    </div>
+                    <div class="box_style about_p hidden" id="about_languages_p">
+                        <div>
+                            <img class="flagImage" src="images/FR.png" alt="Français">
+                            <h3>Français</h3>
+                            <p>Langue Maternelle</p>
+                        </div>
+                        <div>
+                            <img class="flagImage" src="images/UK.png" alt="Anglais">
+                            <h3>Anglais</h3>
+                            <p>Niveau B2</p>
+                        </div>
+                      
+                    </div>
+                    <div class="box_style about_p hidden" id="about_softskills_p">
+                        <ul>
+                            <li><h3>Intelligence émotionnelle</h3> : Je suis quelqu'un d'empathique, sympathique et toujours optimiste</li>
+                            <li><h3>Intelligence relationnelle</h3> : Esprit d'équipe, agit toujours pour maintenir une coopération positive</li>
+                            <li><h3>Curiosité</h3> : J'aime toujours en apprendre plus sur tous les sujets</li>
+                            <li><h3>Ponctualité</h3> et bonne <h3>gestion du temps</h3></li>
+                            <li><h3>Capacité de résolution </h3> : J'aime trouver la solution la plus simple pour répondre à un besoin, que ce soit seul ou en équipe</li>
+                        </ul>
+                    </div>
+                    <div class="box_style about_p hidden" id="about_hobbies_p">
+                        <div class='container-fluid'>
+                            <div class='row'>
+                                <h3>- Judo - </h3>
+                                <p>Je pratique le judo depuis l'âge de 6 ans et cela fait partie intégrante de ma vie.</p>
+                                <p class='p-spacer-under'> J'ai participé à plusieurs compétitions depuis mon jeune âge, où j'ai eu l'honneur de remporter des médailles. Le judo m'a enseigné la discipline, la persévérance et l'esprit de compétition, des valeurs qui me servent également dans ma vie quotidienne. </p>
+                            </div>
+                            <div class='row'>
+                                <h3>- Cinéma -  </h3>
+                                <p class='p-spacer-under'>Je suis également passionné par le cinéma. J'aime découvrir des films de genres variés, analyser les histoires et m'inspirer des univers créés par les réalisateurs.  </p>
+                            </div>
+                            <div class='row'>
+                                <h3>- Programmation -</h3>
+                                <p>La programmation est une passion qui me permet de relever des défis techniques et de donner vie à mes idées. J'adore concevoir des projets, résoudre des problèmes et apprendre de nouvelles choses. Chaque réussite me procure une grande satisfaction et renforce ma créativité.  </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+          </div>
+    </section>
+ 
+      <!-- fin About me -->
+
+   <!-- ecole -->
+      <section class='screen' id='formationsScreen'>
+       <div  id='ecoleScreen'>
+        <div class='spacermenu'></div>
+          <h1 class='sectionTitle h1-spacer-under'>Formations</h1>
+          <div class="screenCenterContent container">
+              
+                <div class="pic_container2 col-md-1">
+                    <div class="picContent">
+                        <span class="pic_back pic_malek"></span>
+                        <div id="profil_pic2" class="pic_malek"></div>
+                    </div>
+                </div>
+            
+                
+                <div id="about_p_container" class='col-md'>
+                    <nav class='btn_nav'>
+                        <ul>
+                            <li data-nw-id-target='about_presentationEcole_a' data-nw-classGroup="about_a" class="js_show_btn selected_btn">Présentation de l'école</li>
+                            <li data-nw-id-target='about_diplome_a' data-nw-classGroup="about_a" class="js_show_btn">Ma formation</li>
+                        </ul>
+                    </nav>
+                    <div class="box_style about_a" id="about_presentationEcole_a">
+                        <p class='p-spacer-under'><b>L'ECE</b> (École Centrale d'Électronique) est une école d'ingénieurs privée reconnue pour son excellence académique et son engagement envers l'innovation technologique. Fondée en <b>1919</b>.</p>
+                        <p class='p-spacer-under'>L'ECE propose des formations de niveau<b> Bachelor, ingénieur, Mastère et MSc.</b> Reconnue pour sa pédagogie innovante axée sur les nouvelles technologies telles que la cybersécurité et l'intelligence artificielle, l'ECE propose un environnement dynamique avec des partenariats internationaux. L'école se distingue par un fort taux d'employabilité et une grande variété de spécialisations.</p>
+                        <p class='p-spacer-under'>L'ECE occupe la<b> 1ʳᵉ place parmi les écoles privées post-bac </b>pour son taux d'insertion professionnelle, témoignant ainsi de la qualité de sa formation et de son accompagnement.</p>
+                        <p>Pour plus d'infos, vous pouvez consulter leur <b>site</b>  <a href="https://www.ece.fr/">ici.</a> :)</p>
+                    </div>
+                    <div class="box_style about_a hidden" id="about_diplome_a">
+                        <p class='p-spacer-under'>Le <b>Bachelor Informatique</b> de l'ECE forme des experts dans des domaines comme le <b>développement d'applications, la cybersécurité, et l'intelligence artificielle.</b> Ce programme de<b> 3 ans</b>, avec une spécialisation en <b>3ᵉ année</b>, inclut des projets pratiques et un accès à des opportunités <b>d'alternance</b>. Il bénéficie d'un excellent classement pour son taux d'insertion professionnelle et la qualité de son enseignement, faisant de l'ECE un choix privilégié pour les étudiants passionnés par les nouvelles technologies.
+
+                            Plus d'infos sur le site de <a href="https://www.ece.fr/programme-bachelor/">bachelor l'ECE.</a></p>
+                        <p class='p-spacer-under'>Le Bachelor Informatique de l'ECE est <b>classé parmi les meilleurs en France</b>, reconnu pour son excellent taux d'insertion professionnelle. Ce diplôme <b>RNCP niveau 6 BAC+3 </b>prépare aux métiers du développement d'applications, de la cybersécurité et de l'intelligence artificielle.</p>
+                        <h2 style="text-align: center;" class='p-spacer-under'>Classement du Bachelor de l’ECE 2024
+                            <h2 style="text-align: center;"><a href="https://meilleurs-bachelors.fr/ece-la-grande-ecole-de-l-ingenierie-numerique-classement-bachelor.html">source</a></h2>
+                        </h2>
+                        
+                        <br>
+                        <div style="text-align: center; justify-content: center;  display: flex; flex-wrap: wrap; ">
+                            <di>
+                            <img class="flagImageclass" src="images/digital-business.webp" alt="classement">
+                            <img class="flagImageclass" src="images/Cybersecu-edu-1.webp" alt="classement">
+                            <img class="flagImageclass" src="images/reseau-et-cyber.webp" alt="classement">
+                        </di>
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+              
+          </div>
+        </div>
+    </section>
+ 
+    <!-- fin ecole -->
+
+	<!-- Competences -->
+    <section class='screen'>
+        <div id='competencesScreen'>
+            <div class='spacermenu'></div>
+            <h1 class='sectionTitle h1-spacer-under'>Compétences</h1>
+            <br><br>
+            <div class="screenCenterContent container-fluid">
+                <div class='row'>
+                    <div class='col-md-3 col-sm-6'>
+                      <div class='competencesCard'>
+                          <div class='competencesCard-header'>
+                              <h2>Web</h2>
+                          </div>
+                          <div>
+                              <div class='progressContainer'>
+                                  <p class='progressLabel'>HTML / CSS</p>
+                                  <div class="progress">
+                                      <div class='progress-bar' role='progressbar' aria-valuemin="0" aria-valuemax="100">90 %</div>
+                                  </div>
+                              </div>
+                              <div class='progressContainer'>
+                                  <p class='progressLabel'>PHP</p>
+                                  <div class="progress">
+                                      <div class='progress-bar' role='progressbar' aria-valuemin="0" aria-valuemax="100"> 70%</div>
+                                  </div>
+                              </div>
+                              <div class='progressContainer'>
+                                  <p class='progressLabel'>JavaScript</p>
+                                  <div class="progress">
+                                      <div class='progress-bar' role='progressbar' aria-valuemin="0" aria-valuemax="100">60 %</div>
+                                  </div>
+                              </div>
+                              <div class='progressContainer'>
+                                  <p class='progressLabel'>WordPress</p>
+                                  <div class="progress">
+                                      <div class='progress-bar' role='progressbar' aria-valuemin="0" aria-valuemax="100">80 %</div>
+                                  </div>
+                              </div>
+                              <div class='progressContainer'>
+                                <p class='progressLabel'>bootstrap</p>
+                                <div class="progress">
+                                    <div class='progress-bar' role='progressbar' aria-valuemin="0" aria-valuemax="100">80 %</div>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class='col-md-3 col-sm-6'>
+                      <div class='competencesCard'>
+                          <div class='competencesCard-header'>
+                              <h2>Base de données</h2>
+                          </div>
+                          <div>
+                              <div class='progressContainer'>
+                                  <p class='progressLabel'>MySQL</p>
+                                  <div class="progress">
+                                      <div class='progress-bar' role='progressbar' aria-valuemin="0" aria-valuemax="100">90 %</div>
+                                  </div>
+                              </div>
+                              <div class='progressContainer'>
+                                  <p class='progressLabel'>Python (Data Science)</p>
+                                  <div class="progress">
+                                      <div class='progress-bar' role='progressbar' aria-valuemin="0" aria-valuemax="100">80 %</div>
+                                  </div>
+                              </div>
+                              <div class='progressContainer'>
+                                  <p class='progressLabel'>SQL</p>
+                                  <div class="progress">
+                                      <div class='progress-bar' role='progressbar' aria-valuemin="0" aria-valuemax="100">95 %</div>
+                                  </div>
+                              </div>
+                              <div class='progressContainer'>
+                                <p class='progressLabel'>XML/JSON</p>
+                                <div class="progress">
+                                    <div class='progress-bar' role='progressbar' aria-valuemin="0" aria-valuemax="100">95 %</div>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class='col-md-3 col-sm-6'>
+                        <div class='competencesCard'>
+                          <div class='competencesCard-header'>
+                              <h2>Programmation</h2>
+                          </div>
+                          <div>
+                              <div class='progressContainer'>
+                                  <p class='progressLabel'>C#</p>
+                                  <div class="progress">
+                                      <div class='progress-bar' role='progressbar' aria-valuemin="0" aria-valuemax="100">90 %</div>
+                                  </div>
+                              </div>
+                              <div class='progressContainer'>
+                                  <p class='progressLabel'>C++</p>
+                                  <div class="progress">
+                                      <div class='progress-bar' role='progressbar' aria-valuemin="0" aria-valuemax="100">80 %</div>
+                                  </div>
+                              </div>
+                              <div class='progressContainer'>
+                                  <p class='progressLabel'>Python</p>
+                                  <div class="progress">
+                                      <div class='progress-bar' role='progressbar' aria-valuemin="0" aria-valuemax="100">75 %</div>
+                                  </div>
+                              </div>
+                              <div class='progressContainer'>
+                                  <p class='progressLabel'>Allegro</p>
+                                  <div class="progress">
+                                      <div class='progress-bar' role='progressbar' aria-valuemin="0" aria-valuemax="100">50 %</div>
+                                  </div>
+                              </div>
+                              
+                          </div>
+                      </div>
+                    </div>
+                    <div class='col-md-3 col-sm-6'>
+                        <div class='competencesCard'>
+                          <div class='competencesCard-header'>
+                              <h2>Autres</h2>
+                          </div>
+                          <div>
+                            <div class='progressContainer'>
+                                <p class='progressLabel'>Git/GitHub</p>
+                                <div class="progress">
+                                    <div class='progress-bar' role='progressbar' aria-valuemin="0" aria-valuemax="100">75 %</div>
+                                </div>
+                            </div>
+                              <div class='progressContainer'>
+                                  <p class='progressLabel'>Commandes Linux</p>
+                                  <div class="progress">
+                                      <div class='progress-bar' role='progressbar' aria-valuemin="0" aria-valuemax="100">65 %</div>
+                                  </div>
+                              </div>
+                              <div class='progressContainer'>
+                                  <p class='progressLabel'>Cisco (Réseaux)</p>
+                                  <div class="progress">
+                                      <div class='progress-bar' role='progressbar' aria-valuemin="0" aria-valuemax="100">85 %</div>
+                                  </div>
+                              </div>
+                              <div class='progressContainer'>
+                                  <p class='progressLabel'>Photoshop</p>
+                                  <div class="progress">
+                                      <div class='progress-bar' role='progressbar' aria-valuemin="0" aria-valuemax="100">60 %</div>
+                                  </div>
+                              </div>
+                             
+                          </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>	
+  </section>
+
+	<!-- fi  Competences -->
+
+  	<!-- Portfolio -->
+
+	  <section class='screen' id='portfolioScreen'>
+        <div  id="ecoleScreen">
+            <div class='spacermenu'></div>
+          <h1 class='h1WhiteBefAft sectionTitle'>Mais projets</h1>
+          <div class='container-fluid'>
+              <div class='row'>
+                  <nav class='btn_nav2' id='portfolioNav'>
+                        <ul>
+                            <li data-nw-id-target='portfolio1' data-nw-classGroup="portfolioGroup" class="js_show_btn">1</li>
+                            <li data-nw-id-target='portfolio2' data-nw-classGroup="portfolioGroup" class="js_show_btn selected_btn portfolio2">2</li>
+                        </ul>
+                    </nav>
+              </div>
+              <div class='row hidden portfolioGroup screenCenterContent max-w-1400' id='portfolio1'>
+                  <div class='col-md col-sm'>
+                        <div class='portfolioCard'>
+                            <div class='portfolioCard-header'>
+                                <h2>PacMan</h2>
+                            </div>
+                            <span class='portfolioCard-spacer'></span>
+                            <div class='portfolioCard-content'>
+                                <div class="flip-image">
+                                    <img src="images/pacman.gif"  alt="Image représentation de la Toquerie">
+                                </div>
+                                <div class="flip-content">
+                                    <div>
+                                        <p class="p-spacer-under">Ce projet visait à recréer le célèbre jeu Pacman en utilisant le langage C et la bibliothèque graphique Allegro. Les fonctionnalités incluent le déplacement du personnage dans un labyrinthe, la collecte de points, la gestion des fantômes avec des comportements spécifiques, et l’application des règles classiques du jeu.</p>
+                                        <p>Ce projet m’a permis de développer mes compétences en programmation graphique, gestion des événements, et implémentation de règles complexes dans un jeu interactif.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class='portfolioCard-spacer'></span>
+                            <div class='portfolioCard-footer'>
+                                <ul class='portfolioCard-footer-list'>
+                                    <li class='jsCaps'>Allegro 4</li>
+                                    <li class='phpCaps'>PhotoShop</li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                  <div class='col-md col-sm'>
+                        <div class='portfolioCard'>
+                            <div class='portfolioCard-header'>
+                                <h2>Scrabble</h2>
+                            </div>
+                            <span class='portfolioCard-spacer'></span>
+                            <div class='portfolioCard-content'>
+                                <div class="flip-image">
+                                    <img src="images/scrabkle2.jpg" alt="Image représentation de ce portfolio">
+                                </div>
+                                <div class="flip-content">
+                                    <div>
+                                        <p class="p-spacer-under">Ce projet consistait à développer une version informatique du célèbre jeu de Scrabble, intégrant des fonctionnalités essentielles comme la gestion du plateau, l’utilisation d’un dictionnaire de mots validés, un système de calcul des scores, et une interface simple et intuitive adaptée aux débutants comme aux joueurs expérimentés.</p>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                            <span class='portfolioCard-spacer'></span>
+                            <div class='portfolioCard-footer'>
+                                <ul class='portfolioCard-footer-list'>
+                                    <li class='htmlCaps'>c#</li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='col-md col-sm'>
+                        <div class='portfolioCard'>
+                            <div class='portfolioCard-header'>
+                                <h2>Gestion Entrées/Sorties</h2>
+                            </div>
+                            <span class='portfolioCard-spacer'></span>
+                            <div class='portfolioCard-content'>
+                                <div class="flip-image">
+                                    <img src="images/base.webp" alt="Image représentation d'Etu'cuisine">
+                                </div>
+                                <div class="flip-content">
+                                    <div>
+                                        <p class="p-spacer-under">05/2024 - 08/2024 </p>
+                                        <p class="p-spacer-under">Durant mon stage de 3 mois à DP World, j’ai travaillé sur la consultation et l’analyse d’une base de données dédiée à la gestion des camions et des conteneurs entrant et sortant du port. Mon rôle consistait à extraire des informations, analyser les données pour optimiser les processus logistiques, et générer des rapports facilitant le suivi des opérations quotidiennes.</p>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <span class='portfolioCard-spacer'></span>
+                            <div class='portfolioCard-footer'>
+                                <ul class='portfolioCard-footer-list'>
+                                    <li class='htmlCaps'>SQL/MYSQL</li>
+                                    <li class='phpCaps'>Oracle</li>
+                                    <li class='sqlCaps'>Ressaux</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+              </div>
+              <div class='row portfolioGroup screenCenterContent max-w-1400' id='portfolio2'>
+                  <div class='col-md col-sm'>
+                        <div class='portfolioCard'>
+                            <div class='portfolioCard-header'>
+                                <h2>site e-commerce</h2>
+                            </div>
+                            <span class='portfolioCard-spacer'></span>
+                            <div class='portfolioCard-content'>
+                                <div class="flip-image">
+                                    <img id="infomaniakPic" src="images/montres.webp" alt="Image représentation Billetterie Infomaniak">
+                                </div>
+                                <div class="flip-content">
+                                    <div>
+                                        <p class="p-spacer-under">01/03/2024 - 01/05/2024 </p>
+                                        <p class="p-spacer-under">Ce projet consistait à créer une plateforme dédiée à la vente de montres, avec des fonctionnalités comme la gestion des produits (modèles de montres), des catégories (luxe, sport, etc.), des clients, des commandes. </p>
+                                        <p class="p-spacer-under">L'interface utilisateur a été conçue pour offrir une navigation fluide, adaptée aux besoins des clients, et une interface d’administration permet une gestion simplifiée des stocks et des commandes.</p>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <span class='portfolioCard-spacer'></span>
+                            <div class='portfolioCard-footer'>
+                                <ul class='portfolioCard-footer-list'>
+                                    <li class='phpCaps'>HTML/CSS</li>
+                                    <li class='jsCaps'>PHP</li>
+                                    <li class='stencilCaps'>SQL/MYSQL</li>
+                                    <li class='wpCaps'>JS</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                  <div class='col-md col-sm'>
+                        <div class='portfolioCard'>
+                            <div class='portfolioCard-header'>
+                                <h2>gestion des projets</h2>
+                            </div>
+                            <span class='portfolioCard-spacer'></span>
+                            <div class='portfolioCard-content'>
+                                <div class="flip-image">
+                                    <img src="images/gestion.webp" alt="Image représentation de Kili">
+                                </div>
+                                <div class="flip-content">
+                                    <div>
+                                        <p class="p-spacer-under">11/2024 - 12/2024</p>
+                                        <p class="p-spacer-under">Ce projet visait à concevoir une application pratique et intuitive permettant de gérer efficacement des tâches et des projets.</p>
+                                        <p class="p-spacer-under"> Les fonctionnalités incluent l’ajout, la modification et la suppression de tâches, la gestion des priorités et des échéances, le suivi des projets, ainsi que la génération de rapports détaillés. Des notifications automatiques rappellent les échéances importantes pour une meilleure organisation.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class='portfolioCard-spacer'></span>
+                            <div class='portfolioCard-footer'>
+                                <ul class='portfolioCard-footer-list'>
+                                    <li class='htmlCaps'>HTML/CSS/JS</li>
+                                    <li class='phpCaps'>PHP</li>
+                                    <li class='sqlCaps'>SQL</li>
+                                    <li class='wpCaps'>Grafna</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='col-md col-sm'>
+                        <div class='portfolioCard'>
+                            <div class='portfolioCard-header'>
+                                <h2>suivi sportif</h2>
+                            </div>
+                            <span class='portfolioCard-spacer'></span>
+                            <div class='portfolioCard-content'>
+                                <div class="flip-image">
+                                    <img src="images/sport.jpeg"  alt="Image représentation du portfolio">
+                                </div>
+                                <div class="flip-content">
+                                    <div>
+                                        <p class="p-spacer-under">1/2025</p>
+                                        <p class="p-spacer-under">En cours de développement</p>
+                                        <p class="p-spacer-under">Ce projet avait pour objectif de créer une application dédiée aux sportifs souhaitant optimiser leurs performances. Les fonctionnalités principales incluent le suivi des performances physiques, la planification des entraînements, la gestion de l’alimentation adaptée aux objectifs, et le suivi des indicateurs de santé (poids, fréquence cardiaque, etc.).</p>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <span class='portfolioCard-spacer'></span>
+                            <div class='portfolioCard-footer'>
+                                <ul class='portfolioCard-footer-list'>
+                                    <li class='htmlCaps'>HTML/CSS/JS</li>
+                                    <li class='phpCaps'>PHP</li>
+                                    <li class='sqlCaps'>SQL</li>
+                                    <li class='wpCaps'>Grafna</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='col-md col-sm'>
+                        <div class='portfolioCard'>
+                            <div class='portfolioCard-header'>
+                                <h2>billetterie des trains</h2>
+                            </div>
+                            <span class='portfolioCard-spacer'></span>
+                            <div class='portfolioCard-content'>
+                                <div class="flip-image">
+                                    <img src="images/train.jpeg"  alt="Image représentation Zoneski">
+                                </div>
+                                <div class="flip-content">
+                                    <div>
+                                        <p class="p-spacer-under">010/2024, pendant 2 semaine</p>
+                                       
+                                        <p class="p-spacer-under">Ce projet consistait à concevoir une application permettant de gérer les réservations de billets de train. Les fonctionnalités incluent la réservation et l'annulation de billets, l'affichage des réservations, la gestion des trains et leur calendrier, ainsi que la consultation de l'historique des tickets émis.</p>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <span class='portfolioCard-spacer'></span>
+                            <div class='portfolioCard-footer'>
+                                <ul class='portfolioCard-footer-list'>
+                                    <li class='htmlCaps'>C++</li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+              </div>
+          </div>
+        </div>
+    </section>
+    <!--fin  Portfolio -->
+
+    	<!-- Contact -->
+        <footer class="footer" id="contacterScreen">
+            <div class="container">
+                <div class="roww">
+                    <div class="footer-col">
+                        <h4>Mes coordonnées</h4>
+                        <ul>
+                            <li> <strong>+33 667958633</strong></li>
+                            <li><strong> maleksilarbi@gmail.com</strong></li>
+                            <li><strong>37 rue des normandes
+                                95100 ARGENTEUIL</strong></li>
+                            
+                        </ul>
+                    </div>  
+                    
+                    <div class="footer-col">
+                        <h4>Me Contacter</h4>
+                        <div class="social-links">
+                            
+                            <a href="https://mail.google.com/mail/u/1/#inbox?compose=CllgCJlDSqMBqnxMVgGmcqtXcDDtMkzkJsDqkrchkJwFPdTzPlCXFFHsQxqSqQnCcgWHrWxVcBq"><i class="fa fa-envelope"></i></a>
+                            <a href="https://www.linkedin.com/in/malek-silarbi-458697296/"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-col">
+                        <h4>À télécharger</h4>
+                        <ul>
+                            <li> <a  href="CV de MALEK SI LARBI.pdf" download="CV_MALEK_SI_LARBI.pdf"><i class="fa fa-download" aria-hidden="true"> </i> <b>CV</b></a></li>
+                            <li> <a href="Lettre de motivation IA.pdf" download="Lettre_de_M_malek_silarbi.pdf"><i class="fa fa-download" aria-hidden="true"></i> <b>lettre de motivation</b> </a></li>
+                            <li><a href="mon_portfolio.zip" download="code_de_malek"><i class="fa fa-download" aria-hidden="true"></i> <b>Code source</b></a></li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <p class="pfooter">&copy; Copyright 2024 réalisé par SILARBI MALEK</p>
+
+        </footer>
+        
+    </div>
+ 	<!-- fin Contact -->
+
+<script src="main.js"></script>
+<script src="bootstrap.js"></script>
+     
+
+</body>
+</html>
